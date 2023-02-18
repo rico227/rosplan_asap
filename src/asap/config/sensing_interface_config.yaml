@@ -1,0 +1,25 @@
+functions:
+    - $(find asap)/scripts/sensing_interface.py
+topics:
+    robot_at:
+        - params:
+            - '*'
+            - '*'
+          topic: /amcl_pose
+          msg_type: geometry_msgs/PoseWithCovarianceStamped
+    robot_attable:
+        - params:
+            - '*'
+            - '*'
+          topic: /amcl_pose
+          msg_type: geometry_msgs/PoseWithCovarianceStamped
+    free:
+        - params:
+            - '*'
+          topic: /state
+          msg_type: std_msgs/String
+    not_free:
+        - params:
+            - '*'
+          topic: /state
+          msg_type: std_msgs/String

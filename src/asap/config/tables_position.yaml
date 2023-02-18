@@ -1,0 +1,13 @@
+rosplan_asap_waypoints:
+    # waypoints reference frame
+    waypoint_frameid: map
+
+    # waypoint 2D coordinates: x, y, theta
+    tablea1: [3.7, 1, 0]
+    tablea2: [3.7, 4.5, 0]
+    tablea3: [-3.7, 4.5, 0]
+    tablea4: [-3.7, 1, 0]
+    tableb1: [3.7, -0.5, 0]
+    tableb2: [3.7, -4.5, 0]
+    tableb3: [-3.5, -0.5, 0]
+    tableb4: [-3.6, -4.5, 0]
